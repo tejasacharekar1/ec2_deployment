@@ -32,7 +32,7 @@ pipeline
 		{
 			steps
 			{
-				ansiblePlaybook credentialsId: 'ec2-user', disableHostKeyChecking: true, installation: 'ansible1', inventory: 'machin.inv', playbook: 'httpd_deploy.yml'
+				ansiblePlaybook credentialsId: 'EC2-User', disableHostKeyChecking: true, installation: 'ansible1', inventory: 'machin.inv', playbook: 'httpd_deploy.yml'
 			}
 		}
 	}
